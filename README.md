@@ -69,3 +69,10 @@ Project ini dibuat untuk:
 - Belajar keamanan web dasar
 - Memahami cara kerja serangan SQL Injection
 
+## Hasil pengecekan plagiasi (maksimal 30%)
+<img width="740" height="671" alt="image" src="https://github.com/user-attachments/assets/7d851d2f-74a1-4793-ab9a-d0788599e5ca" />
+
+LINK NYA:
+https://submitin.id/status?order=SC-66005C76 
+
+
