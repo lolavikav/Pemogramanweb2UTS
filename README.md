@@ -1,8 +1,10 @@
 # UTS Pemrograman Web2 -SQL Injection Demo
 
 ## Tentang Project
+Project ini dibuat untuk memenuhi tugas UTS Pemrograman Web.
+Tujuan dari project ini adalah untuk memahami bagaimana SQL Injection bekerja serta bagaimana cara mencegahnya.
 
-Project ini adalah simulasi sederhana untuk memahami salah satu celah keamanan paling umum di web, yaitu SQL Injection.
+Dalam project ini, saya melakukan simulasi sederhana pada sistem login untuk melihat bagaimana celah keamanan bisa dimanfaatkan, dan bagaimana solusi yang lebih aman dapat diterapkan.
 
 Di sini saya mencoba:
 
@@ -10,15 +12,18 @@ Di sini saya mencoba:
 - Menguji apakah sistem bisa ditembus
 - Memperbaiki celah keamanan tersebut
 
-## Contoh Serangan
+## Apa itu SQL Injection?
 
-Input yang digunakan saat pengujian:
+SQL Injection adalah teknik serangan yang dilakukan dengan cara menyisipkan kode SQL ke dalam input user.
+Serangan ini biasanya terjadi pada form login atau input data lainnya.
 
+Contoh input berbahaya:
 ```
 Username: lola
 Password: ' OR '1'='1
 ```
-Dengan input ini, sistem yang tidak aman bisa menganggap login berhasil walaupun password salah.
+
+Jika sistem tidak aman, maka login bisa berhasil tanpa password yang benar.
 
 ## Cara Kerja 
 
@@ -71,6 +76,7 @@ Project ini dibuat untuk:
 
 ## Hasil Publikasi dan pengecekan plagiasi
 https://medium.com/@lolavikav/sql-injection-cara-kerjanya-bahayanya-dan-pengalaman-mencoba-sendiri-a13d4f40fecc
+
 Link Plagiasi:
 https://submitin.id/status?order=SC-66005C76 
 
